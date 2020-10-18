@@ -13,7 +13,7 @@ export const catalog = () => {//оборачиваем все в одну ф-ю 
     const subCatalog = document.querySelector('.subcatalog'); //Получаем список сабкаталога ( субкаталог)
     const btnReturn = document.querySelector('.btn-return');
     const subcatalogHeader = document.querySelector('.subcatalog-header');
-
+log 
     const overlay = document.createElement('div');//Создаем переменную overlay и в е присваиваем тег <div>
       //В HTML-документах createElement создает элемент c тем тегом, что указан в аргументе или
       overlay.classList.add('overlay');//в переменную с тегом <div> мы присваиваем сlass = overlay
